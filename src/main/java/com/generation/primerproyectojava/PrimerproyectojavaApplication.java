@@ -88,13 +88,13 @@ public class PrimerproyectojavaApplication {
 		char newChar = 'A';	
 		mostrarTuNombre("Pamela");
 		System.out.println(tuEdad(25, 'N'));
+		//declaración de la variable de scanner
 		Scanner teclado = new Scanner (System.in);
 		System.out.println("Ingrese algo en la consola: esto ");
 		String datoTeclado = teclado.nextLine();
 		System.out.println("el dato ingresado por el usuario fue: "+ datoTeclado);
-		
-
-		
+		//dato freak el teclado se puede cerrar :D
+		teclado.close();
 	}
 
 }
